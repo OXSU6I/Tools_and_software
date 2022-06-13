@@ -173,6 +173,7 @@ body{
     font-family: mainfont;
     font-size: 100px;
     color: #FFF;
+    z-index: 222;
 }
 
 .abuot .content p{
@@ -277,16 +278,16 @@ body{
 
 /* SECTION_END */
 .anonm{
-    height: 450px;
+    height: 340px;
 }
 
 .section_title{
     text-align: center;
-    margin-top: -80px;
+    margin-bottom: 30px;
 }
 .section_title h1{
     font-family: mainfont;
-    color: #265a27;
+    color: #74BC75;
 }
 .section_title > div{
     background-color: #74BC75;
@@ -302,13 +303,12 @@ body{
     }
 }
 section {
-    max-width: 1300px;
+    max-width: 1120px;
     transition: 0.3s;
     height: 100%;
     margin: auto;
     width: 100%;
 }
-
 section .apps_content{
     justify-content: center;
     align-items: center;
@@ -320,19 +320,11 @@ section .apps_content{
     background-color: #FFF;
     margin-bottom: 30px;
     border-radius: 6px;
-    margin-right: 20px;
-    margin-left: 20px;
-    min-height: auto;
-    margin-top: 30px;
     width: 333px;
-    margin: auto;
+    margin: 10px 10px;
+
 }
 
-@media (max-width:880px) {
-    .apps_content .card_app{
-        width: 100%;
-    }
-}
 
 .apps_content .gobck{
     border-top-right-radius: 6px;
@@ -387,13 +379,14 @@ section .apps_content{
     background-color: #919192;
     margin-bottom: 10px;
     border-radius: 3px;
-    padding: 10px 40px;
+    padding: 5px 0px;
 }
 
 
 .apps_content .tit_Par .download a{
     font-family: mainfont;
     text-decoration: none;
+    padding: 0px 20px;
     color: #FFF;
     
 }
@@ -605,9 +598,14 @@ footer .git_tele li a{
 
 footer .git_tele li a i{
     color: #400e0eff;
+    transition: 0.3s;
+}
+footer .git_tele li a i:hover{
+    color: #1c93e3;
 }
 
 footer .Copyright div{
     font-family: 'mainfont';
     font-size: 15px;
+    cursor: default;
 }

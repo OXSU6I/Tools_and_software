@@ -32,13 +32,17 @@
     .header{
         height: 75px;
     }
-    section{
-        zoom: 85%;
-    }
+
+    
 }
 /* header_end */
-@media (max-width:900px){
-    .apps_content .card_app {
-        width: 430px;
+@media (max-width:762px){
+    .apps_content .card_app{
+        width: 480px !important;
+    }
 }
+@media (max-width:500px){
+    .apps_content .card_app{
+        width: 100% !important;
+    }
 }
